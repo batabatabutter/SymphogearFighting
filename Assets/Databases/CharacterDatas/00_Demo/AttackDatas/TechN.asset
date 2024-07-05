@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5ecbe3afa2733419b7f650d53f787a, type: 3}
+  m_Name: TechN
+  m_EditorClassIdentifier: 
+  attackName: "\u306F\u3069\u30FC\u3051\u3093"
+  controllKeyTypeStrings:
+  - 0:Nutoral
+  - 7:Technical
+  atk: 300
+  startupSec: 0.3
+  activeSec: 0.1
+  recoverySec: 0.3

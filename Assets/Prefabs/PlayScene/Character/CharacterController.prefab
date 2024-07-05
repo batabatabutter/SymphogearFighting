@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2820529680768478989}
   - component: {fileID: 2066081366720352048}
   - component: {fileID: 8613701157638177963}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: CharacterController
-  m_TagString: Untagged
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,6 +47,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_character: {fileID: 0}
   m_input: {fileID: 8613701157638177963}
+  m_move:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: de907b27-bf9a-43e8-a005-dd88dc02ec27
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 977689609073738672, guid: 9440d926f1c0eb04c9b1ccbea0eb6bcd, type: 3}
+  m_technical:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Technical
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 1ce34f21-6748-4cad-9cdc-1b6b21e41189
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -830192541033411521, guid: 9440d926f1c0eb04c9b1ccbea0eb6bcd, type: 3}
 --- !u!114 &8613701157638177963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,19 +137,7 @@ MonoBehaviour:
     m_ActionId: feac0003-96e2-41e8-bb91-b060d8fc9410
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2066081366720352048}
-        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
-        m_MethodName: OnTechnical
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: 7c34214b-3a72-411f-8954-c5eb01a633e3
     m_ActionName: Player/Technical[/Keyboard/x]
   - m_PersistentCalls:

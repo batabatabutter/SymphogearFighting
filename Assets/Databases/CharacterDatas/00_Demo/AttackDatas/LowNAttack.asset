@@ -9,7 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a667b4f414f122f4182eb350a34d8c2f, type: 3}
-  m_Name: CharacterDataBase
+  m_Script: {fileID: 11500000, guid: af5ecbe3afa2733419b7f650d53f787a, type: 3}
+  m_Name: LowNAttack
   m_EditorClassIdentifier: 
-  characterList: []
+  attackName: "N\u5F31\u653B\u6483"
+  controllKeyTypeStrings:
+  - 0:Nutoral
+  - 5:LowAttack
+  atk: 100
+  startupSec: 0.1
+  activeSec: 0.1
+  recoverySec: 0.1

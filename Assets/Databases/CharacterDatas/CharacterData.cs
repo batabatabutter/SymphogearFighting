@@ -17,15 +17,23 @@ public class CharacterData : ScriptableObject
     [SerializeField] private float maxSpeed = 0.0f;
     [Header("移動摩擦度")]
     [SerializeField] private float friction = 0.0f;
+    [Header("ジャンプ力")]
+    [SerializeField] private float jumpVelocity = 0.0f;
 
     [Header("重力加速度")]
     [SerializeField] private float acceleGravity = 0.0f;
+
+    [Header("各攻撃情報")]
+    [SerializeField] private AttackDataBase attackDataBase = null;
 
     public Sprite Graph => graph;
     public int MaxHP => maxHP;
     public float AcceleSpeed => acceleSpeed;
     public float MaxSpeed => maxSpeed;
     public float Friction => friction;
+    public float JumpVelocity => jumpVelocity;
 
     public float AcceleGravity => acceleGravity;
+
+    public AttackDataBase AttackDataBase => attackDataBase;
 }
